@@ -9,4 +9,6 @@ class Order extends Model
 {
     use HasFactory;
     protected $fillable = ["product_id", "user_id", "count", "status", "order_code"];
+
+    // comment line
 }
